@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Gothic+A1&display=swap');
+
 /*Minimal CSS Reset*/
 html {
     box-sizing: border-box;
@@ -25,7 +27,7 @@ html {
 /*Minimal CSS Reset End*/
 
 /*Global Styles*/
-@import url('https://fonts.googleapis.com/css2?family=Cutive+Mono&family=Gothic+A1&display=swap');
+
 
   /*Placeholder*/
   :root {
