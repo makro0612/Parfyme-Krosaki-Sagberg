@@ -56,6 +56,11 @@ header{
 
 .navleft{
     height: 100%;
+    width: 10%;
+}
+.navright{
+    height: 100%;
+    width: 10%;
 }
 
 .logo{
@@ -69,5 +74,40 @@ header{
 
 .navmid{
     display: flex;
+    background-color: rebeccapurple;
     flex: 1;
+    flex-direction: column;
+
+    
+}
+
+.uppermid{
+  display: flex;
+  width: 100%;
+  height: 100%;
+}
+
+.uppermid>input{
+  height: 100%;
+  width: 100%;
+}
+
+.mail{
+  background-color: red;
+  height: 100%;
+}
+.user{
+  background-color: green;
+  height: 100%;
+}
+
+.tabs{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+}
+input{
+  outline: none;
 }
