@@ -31,14 +31,17 @@ html {
   :root {
     --placeblack: #000;
     --placecour : "courier,sans-serif";
-  }
-  /*Placeholder End*/
+}
+/*Placeholder End*/
 
-  :root{
+:root{
     --white: #f6f8f6;
     --black: #333;
     --dgrey: #424242;
     --lgrey: #6c6c6c;
+    --helvetica : "helvetica, sans-serif";
+    --cutivemono : "Cutive Mono", monospace;
+    --gothic: "Gothic A1", sans-serif;
   }
 
 
