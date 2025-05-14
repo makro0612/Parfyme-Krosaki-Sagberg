@@ -1,0 +1,75 @@
+[
+    {
+        "name": "No. 19 Scarlet Heat",
+        "color": "deep red",
+        "top_notes": ["chili pepper", "pink peppercorn", "dark rum"],
+        "heart_notes": ["red roses", "cinnamon bark", "clove"],
+        "base_notes": ["burnt incense", "charred amber", "smoked oud"],
+        "classification": "feminine"
+    },
+    {
+        "name": "No. 20 Golden Ember",
+        "color": "molten gold",
+        "top_notes": ["cinnamon", "coffee bean", "nutmeg"],
+        "heart_notes": ["toasted vanilla", "hazelnut", "burnt sugar"],
+        "base_notes": ["amberwood", "sandalwood smoke", "resinous balsam"],
+        "classification": "androgynous"
+    },
+    {
+        "name": "No. 21 Kindled",
+        "color": "burnt orange",
+        "top_notes": ["ginger", "blood orange", "black pepper"],
+        "heart_notes": ["cinnamon", "cardamom", "rosewood"],
+        "base_notes": ["smoked cedar", "birch tar", "tonka bean"],
+        "classification": "masculine"
+    },
+    {
+        "name": "No. 22 Ashes & Silk",
+        "color": "charcoal grey",
+        "top_notes": ["bergamot", "black tea", "coriander seed"],
+        "heart_notes": ["iris", "nutmeg", "rose petals"],
+        "base_notes": ["charred woods", "white musk", "smoke accord"],
+        "classification": "androgynous"
+    },
+    {
+        "name": "No. 23 Cinder Bloom",
+        "color": "dark plum",
+        "top_notes": ["blackcurrant", "saffron", "smoked cherry"],
+        "heart_notes": ["damask rose", "incense", "tonka"],
+        "base_notes": ["burned sugar", "leather", "ash wood"],
+        "classification": "feminine"
+    },
+    {
+        "name": "No. 24 Firebrand",
+        "color": "rust copper",
+        "top_notes": ["cayenne", "ginger root", "rum absolute"],
+        "heart_notes": ["cinnamon leaf", "clove bud", "leather accord"],
+        "base_notes": ["birch tar", "smoldering resins", "dark amber"],
+        "classification": "masculine"
+    },
+    {
+        "name": "No. 25 Velvet Smoke",
+        "color": "smoky mauve",
+        "top_notes": ["smoked vanilla", "rosewood", "tonka bean"],
+        "heart_notes": ["black orchid", "myrrh", "nutmeg"],
+        "base_notes": ["benzoin", "burnt sandalwood", "white amber smoke"],
+        "classification": "feminine"
+    },
+    {
+        "name": "No. 26 Inferno",
+        "color": "crimson",
+        "top_notes": ["cinnamon", "pimento", "spiced rum"],
+        "heart_notes": ["rose absolute", "patchouli", "geranium"],
+        "base_notes": ["charcoal smoke", "leather", "embers"],
+        "classification": "masculine"
+    },
+    {
+        "name": "No. 27 Whisper of Smoke",
+        "color": "soft taupe",
+        "top_notes": ["cardamom", "lavender", "pink pepper"],
+        "heart_notes": ["cinnamon", "orris root", "tobacco leaf"],
+        "base_notes": ["smoked sandalwood", "vanilla bean", "faint firewood smoke"],
+        "classification": "androgynous"
+    }
+  ]
+  

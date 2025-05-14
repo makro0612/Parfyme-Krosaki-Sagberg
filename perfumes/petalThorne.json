@@ -1,0 +1,74 @@
+[
+    {
+        "name": "No. 01 Grønke",
+        "color": "light green",
+        "top_notes": ["Lily of the Valley", "Jasmine", "White Peach", "Green Apple", "Neroli", "Citrus Zest"],
+        "heart_notes": ["Peony", "Freesia", "Gardenia", "Magnolia", "Rosewater", "Orchid"],
+        "base_notes": ["White Amber", "Sandalwood", "Soft Musk", "Cashmere Wood", "Almond Blossom"],
+        "classification": "Feminine"
+    },
+    {
+        "name": "No. 02 Forget Me Not",
+        "color": "light blue",
+        "top_notes": ["Nashi Pear", "White Musk", "Lavender", "Sweet Orange", "Mandarin"],
+        "heart_notes": ["Forget Me Not", "Honeysuckle", "Chamomile", "Peony", "Lilac Blossom"],
+        "base_notes": ["Soft Vanilla", "White Amber", "Cedarwood", "Tonka Bean", "Honey"],
+        "classification": "Androgynous"
+    },
+    {
+        "name": "No. 03 Pink Lemonade",
+        "color": "light pink",
+        "top_notes": ["Fresh Roses", "Raspberry", "Vanilla", "Lemon Peel", "Grapefruit Blossom"],
+        "heart_notes": ["Freesia", "Rosewater", "Jasmine Sambac", "Magnolia", "Lilac Blossom"],
+        "base_notes": ["Soft Musk", "Tonka Bean", "Patchouli", "White Chocolate", "Cashmere Wood"],
+        "classification": "Feminine"
+    },
+    {
+        "name": "No. 04 Overgrown",
+        "color": "purple",
+        "top_notes": ["Forest Fruits", "Lilacs", "Violet", "Thistle", "Mandarin"],
+        "heart_notes": ["Forest Greens", "Violet Leaf", "Peony", "Honeysuckle", "Geranium"],
+        "base_notes": ["White Musk", "Cedarwood", "Sandalwood", "Honey", "Suede"],
+        "classification": "Androgynous"
+    },
+    {
+        "name": "No. 05 Lemon Zest",
+        "color": "warm white",
+        "top_notes": ["Bergamot", "Orange Flower", "Citrus Zest", "Lemon Peel", "Grapefruit"],
+        "heart_notes": ["Neroli Blossom", "Jasmine", "Freesia", "Peony", "Magnolia"],
+        "base_notes": ["Soft Musk", "Cashmere Wood", "Sandalwood", "White Amber", "Vanilla Bean"],
+        "classification": "Androgynous"
+    },
+    {
+        "name": "No. 06 Frostbite",
+        "color": "light grey",
+        "top_notes": ["Fresh Mint", "Elderflower", "White Musk", "Green Apple", "Lemon Peel"],
+        "heart_notes": ["Peony", "Jasmine", "Honeysuckle", "Rosewater", "Lilac Blossom"],
+        "base_notes": ["Soft Musk", "White Amber", "Cashmere Wood", "Cedarwood", "Tonka Bean"],
+        "classification": "Androgynous"
+    },
+    {
+        "name": "No. 07 Greenhouse",
+        "color": "rich green",
+        "top_notes": ["Rainwater", "Mandarin", "Lemon Zest", "Citrus Blossom", "Green Apple"],
+        "heart_notes": ["Peony", "Freesia", "Rosewater", "Jasmine Sambac", "Violet Leaf"],
+        "base_notes": ["Soft Musk", "White Amber", "Cedarwood", "Honey", "Cashmere Wood"],
+        "classification": "Androgynous"
+    },
+    {
+        "name": "No. 08 The Wasp",
+        "color": "light yellow",
+        "top_notes": ["Lemon Blossom", "Orange Blossom", "Bergamot", "Mandarin", "Fresh Greens"],
+        "heart_notes": ["Peony", "Freesia", "Jasmine", "Honeysuckle", "Lilac Blossom"],
+        "base_notes": ["Vanilla", "Tonka Bean", "Soft Musk", "Cashmere Wood", "White Amber"],
+        "classification": "Androgynous"
+    },
+    {
+        "name": "No. 09 Nectar",
+        "color": "orangeish pink",
+        "top_notes": ["Peach Blossom", "Nashi Pear", "Mandarin", "Lemon Zest", "Citrus Blossom"],
+        "heart_notes": ["Rosewater", "Jasmine", "Freesia", "Magnolia", "Honeysuckle"],
+        "base_notes": ["Soft Musk", "Vanilla", "Cedarwood", "Cashmere Wood", "White Amber"],
+         "classification": "Feminine"
+    }
+]

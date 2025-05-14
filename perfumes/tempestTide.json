@@ -1,0 +1,75 @@
+[
+    {
+        "name": "No. 28 Tempest Bloom",
+        "color": "mid blue",
+        "top_notes": ["lemon zest", "boysenberry", "green apple"],
+        "heart_notes": ["sea breeze accord", "white florals", "driftwood"],
+        "base_notes": ["cedar", "salted musk", "cool amber"],
+        "classification": "androgynous"
+    },
+    {
+        "name": "No. 29 Deep Current",
+        "color": "dark blue",
+        "top_notes": ["bergamot", "black pepper", "cold rain accord"],
+        "heart_notes": ["orchid", "maplewood", "wet stone"],
+        "base_notes": ["tonka bean", "oceanic musk", "deep cedar"],
+        "classification": "masculine"
+    },
+    {
+        "name": "No. 30 Saltveil",
+        "color": "pale grey-blue",
+        "top_notes": ["sea salt", "ozone", "green mandarin"],
+        "heart_notes": ["water lily", "pebble accord", "iris"],
+        "base_notes": ["blond woods", "musk", "ambergris"],
+        "classification": "androgynous"
+    },
+    {
+        "name": "No. 31 Gale",
+        "color": "stormcloud grey",
+        "top_notes": ["mint", "crushed pine", "lime"],
+        "heart_notes": ["eucalyptus", "cool spices", "marine accord"],
+        "base_notes": ["wet bark", "musk", "stone moss"],
+        "classification": "masculine"
+    },
+    {
+        "name": "No. 32 Sirensong",
+        "color": "sea glass green",
+        "top_notes": ["white peach", "lemon leaf", "marine aldehydes"],
+        "heart_notes": ["salted violet", "lilac", "driftwood rose"],
+        "base_notes": ["coconut husk", "mineral musk", "sandalwood"],
+        "classification": "feminine"
+    },
+    {
+        "name": "No. 33 Low Tide",
+        "color": "misty taupe",
+        "top_notes": ["sage", "grapefruit", "pear"],
+        "heart_notes": ["fennel flower", "kelp accord", "green tea"],
+        "base_notes": ["oakmoss", "driftwood", "wet mineral clay"],
+        "classification": "androgynous"
+    },
+    {
+        "name": "No. 34 Breakwater",
+        "color": "slate grey",
+        "top_notes": ["lemon rind", "blackcurrant leaf", "cold seawater"],
+        "heart_notes": ["juniper", "orchid", "crushed shells"],
+        "base_notes": ["smoked vetiver", "cedar", "ambergris"],
+        "classification": "masculine"
+    },
+    {
+        "name": "No. 35 Blue Hour",
+        "color": "twilight indigo",
+        "top_notes": ["marine lavender", "pear skin", "ozonic rain"],
+        "heart_notes": ["iris root", "sea daffodil", "salt air accord"],
+        "base_notes": ["pale woods", "blue musk", "cashmeran"],
+        "classification": "feminine"
+    },
+    {
+        "name": "No. 36 Undertow",
+        "color": "inky black-blue",
+        "top_notes": ["black lime", "wet slate", "cold mint"],
+        "heart_notes": ["anise", "fern", "storm accord"],
+        "base_notes": ["dark amber", "salt crystals", "sun-warmed rock"],
+        "classification": "androgynous"
+    }
+  ]
+  
