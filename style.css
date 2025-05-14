@@ -1,94 +1,108 @@
-
 /*Header Styles*/
-
-header{
-    width: 100%;
-    height: 15vh;
-    background-color: aqua;
-    display: flex;
+.slider {
+  display: flex;
+  height: 30px;
+  background-color: aquamarine;
+  justify-content: center;
+  align-items: center;
 }
 
-.navleft{
-    height: 100%;
-    width: 10%;
-}
-.navright{
-    height: 100%;
-    width: 10%;
-}
-
-.logo{
-    height: 100%;
-    width: 100%;
-    background-color: aqua;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+header {
+  width: 100%;
+  height: 80px;
+  background-color: white;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: solid 1px #ececec;
 }
 
-.navmid{
-    display: flex;
-    background-color: rebeccapurple;
-    flex: 1;
-    flex-direction: column;
-
-    
+.navleft {
+  display: flex;
+  height: 100%;
 }
 
-.uppermid{
+.logo {
+  background-image: url("bilder/logoMain.svg");
+  background-size: cover;
+  width: 147px;
+  height: 53.8px;
+  margin: 18px 15px 0 20px;
+
+}
+
+.shoppingBasket {
+  height: 80px;
+  width: 125px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.shoppingBasket>img {
+  width: 17px;
+}
+.navmid {
+  display: flex;
+  background-color: rebeccapurple;
+  flex: 1;
+  flex-direction: column;
+}
+
+.uppermid {
   display: flex;
   width: 100%;
   height: 100%;
 }
 
-.uppermid>input{
+.uppermid>input {
   height: 100%;
   width: 100%;
 }
 
-.mail{
+.mail {
   background-color: red;
   height: 100%;
 }
-.user{
+
+.user {
   background-color: green;
   height: 100%;
 }
 
-.tabs{
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    align-items: center;
-    height: 100%;
-    width: 100%;
+.tabs {
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
 }
-input{
+
+input {
   outline: none;
   border: none;
 }
 
-.tab{
+.tab {
   font-family: "Gothic A1", sans-serif;
   font-weight: 600;
   font-size: 12px;
-  
+
 }
 
-.uppermid>button{
+.uppermid>button {
   border: none;
   outline: none;
   background-color: #fff;
 }
 
-.content{
+.content {
   display: flex;
   height: 65vh;
   width: 100%;
   background-color: lime;
 }
 
-.textbox{
+.textbox {
   display: flex;
   height: 20vh;
   width: 100%;
@@ -97,7 +111,7 @@ input{
   align-items: center;
 }
 
-.type{
+.type {
   display: flex;
   height: 100%;
   width: 100%;
@@ -107,7 +121,7 @@ input{
   flex-direction: column;
 }
 
-.featured{
+.featured {
   height: 102vh;
   width: 100%;
   background-color: var(--white);
@@ -115,12 +129,12 @@ input{
 
 }
 
-.featuredimg{
+.featuredimg {
   height: 80%;
   width: 70%;
 }
 
-.textspot{
+.textspot {
   height: 100%;
   width: 100%;
   background-color: var(--white);
@@ -131,19 +145,20 @@ input{
   gap: 70px;
 }
 
-.textspot>h1{
+.textspot>h1 {
   font-family: var(--helvetica);
   font-size: 30px;
   color: var(--black);
 }
-.textspot>p{
+
+.textspot>p {
   font-family: var(--helvetica);
   font-size: 20px;
   color: var(--black);
 }
 
 
-.imgspot{
+.imgspot {
   height: 100%;
   width: 100%;
   background-color: var(--white);
@@ -152,20 +167,20 @@ input{
   align-items: center;
 }
 
-.fragrances{
+.fragrances {
   height: 102vh;
   width: 100%;
   position: relative;
 
 }
 
-.fragimg{
+.fragimg {
   height: 100%;
   width: 100%;
-  
+
 }
 
-.overlay{
+.overlay {
   position: absolute;
   top: 0;
   left: 0;
@@ -174,7 +189,7 @@ input{
   background-color: rgba(0, 0, 0, 0.5);
 }
 
-.fragtitle{
+.fragtitle {
   position: absolute;
   top: 50%;
   left: 50%;
@@ -184,27 +199,27 @@ input{
   font-size: 30px;
 }
 
-.fragtext{
+.fragtext {
   position: absolute;
   top: 80%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: var(--white);
   font-family: var(--helvetica);
-  font-size: 20px;  
+  font-size: 20px;
 }
 
-.popular{
- width: 100%;
- height: 50vh;
- background-color: green;
- padding: 1%;
- display: flex;
- gap: 20px;
+.popular {
+  width: 100%;
+  height: 50vh;
+  background-color: green;
+  padding: 1%;
+  display: flex;
+  gap: 20px;
 
 }
 
-.popitem{
+.popitem {
   height: 100%;
   width: 21%;
   background-color: coral;
@@ -212,21 +227,21 @@ input{
   flex-direction: column;
 }
 
-.popimg{
+.popimg {
   height: 70%;
   width: 100%;
 }
 
-.poptext{
+.poptext {
   padding: 2%;
 }
 
-.popular.gifts{
+.popular.gifts {
   height: 70vh;
   justify-content: center;
 }
 
-.popular.gifts .popitem{
+.popular.gifts .popitem {
   height: 100%;
   width: 30%;
   background-color: rebeccapurple;
@@ -234,7 +249,7 @@ input{
   flex-direction: column;
 }
 
-.birthmonth{
+.birthmonth {
   position: absolute;
   top: 70%;
   left: 50%;
