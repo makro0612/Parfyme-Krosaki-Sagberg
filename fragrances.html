@@ -5,12 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fragrances</title>
     <link rel="stylesheet" href="minimalroot.css">
-    <link rel="stylesheet" href="kstyle.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <!--insert martin sin navbar-->
     <header>
-        
+
+        <div class="navleft">
+            <a href="index.html" class="logo">
+                
+            </a>
+        </div>
+        <div class="navmid">
+            <div class="uppermid">
+                <button>
+                    search
+                </button>
+                <input type="text" placeholder="Search">
+                <!-- Mail?-->
+                <div class="user">user</div>
+            </div>
+
+            <div class="tabs">
+                <a class="tab">TAB 1</a>
+                <a class="tab">Tab 2</a>
+                <a class="tab">Tab 3</a>
+                <a class="tab">Tab 4</a>
+            </div>
+
+        </div>
+        <a href="cart.html" class="shoppingBasket">
+            <img src="bilder/shoppingBasketIcon.svg" alt="shopping basket">
+            <p>(0)</p>
+        </a>
+
     </header>
+    <main class="fragmain">
+        
+        <section class="fragrances">
+            <img src="bilder/fragrancesplaceholder.jpg" alt="" class="fragimg">
+        <!--<div class="overlay"></div>-->
+            <h1 class="fragtitle">Fragrances</h1>
+            <p class="fragtext">lore</p>
+        </section>
+        <div class="divider">
+            <div class="filterpop">
+                <h1 class="filtertit">
+                    Filter
+                </h1>
+            </div>
+                <section class="filterar">
+                <div class="filter" onclick="toggleFilter()">
+                    Filter
+                </div>
+            </section>
+            <section class="perf">
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+                <div class="per"></div>
+            </section>
+        </div>
+        
+    </main>
+    <script src="script.js"></script>
 </body>
 </html>

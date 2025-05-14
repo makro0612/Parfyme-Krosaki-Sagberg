@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        #filter-menu {
+  margin-bottom: 20px;
+}
+
+#filter-menu label,
+#filter-menu select,
+#filter-menu input[type="text"] {
+  margin-right: 15px;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.item {
+  padding: 10px 20px;
+  border: 1px solid #ccc;
+  background-color: #f8f8f8;
+  border-radius: 5px;
+}
+
+    </style>
+</head>
+<body>
+    <h2>Produktfilter</h2>
+
+<!-- Filtreringsmeny -->
+<div id="filter-menu">
+  <label for="category-select">Kategori:</label>
+  <select id="category-select" onchange="applyFilters()">
+    <option value="all">Alle</option>
+    <option value="frukt">Frukt</option>
+    <option value="grønnsak">Grønnsak</option>
+  </select>
+
+  <label>
+    <input type="checkbox" value="cheap" onchange="applyFilters()" /> Billig
+  </label>
+  <label>
+    <input type="checkbox" value="expensive" onchange="applyFilters()" /> Dyr
+  </label>
+
+  <input type="text" id="search" placeholder="Søk..." oninput="applyFilters()" />
+</div>
+
+<!-- Produkter -->
+<div class="container">
+  <div class="item frukt cheap">🍎 Eple – 10 kr</div>
+  <div class="item grønnsak cheap">🥕 Gulrot – 12 kr</div>
+  <div class="item frukt expensive">🍍 Ananas – 40 kr</div>
+  <div class="item grønnsak expensive">🥦 Brokkoli – 35 kr</div>
+  <div class="item frukt cheap">🍌 Banan – 8 kr</div>
+</div>
+
+<script>
+    function applyFilters() {
+  const selectedCategory = document.getElementById("category-select").value;
+  const checkboxes = document.querySelectorAll('input[type="checkbox"]:checked');
+  const searchText = document.getElementById("search").value.toLowerCase();
+  const items = document.querySelectorAll(".item");
+
+  const priceFilters = Array.from(checkboxes).map(cb => cb.value);
+
+  items.forEach(item => {
+    const matchesCategory = selectedCategory === "all" || item.classList.contains(selectedCategory);
+    const matchesPrice = priceFilters.length === 0 || priceFilters.some(filter => item.classList.contains(filter));
+    const matchesSearch = item.textContent.toLowerCase().includes(searchText);
+
+    if (matchesCategory && matchesPrice && matchesSearch) {
+      item.style.display = "block";
+    } else {
+      item.style.display = "none";
+    }
+  });
+}
+
+</script>
+
+</body>
+</html>

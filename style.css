@@ -259,3 +259,67 @@ input {
   padding: 2%;
 
 }
+
+/*Fragrances*/
+
+.fragmain{
+  position: relative;
+}
+
+.filterar{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  height: 15vh;
+  width: 100%;
+  background-color: #fff;
+  padding: 20px   ;
+}
+.filter{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  background-color: aqua;
+  padding: 20px;
+  
+}
+
+.perf{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  gap: 20px;
+  height: 200vh;
+  width: 100%;
+  padding: 20px;
+  padding-top: 0px;
+  
+}
+
+.per{
+  height: 100%;
+  width: 100%;
+  background-color: var(--black);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filterpop{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  height: 100%;
+  background-color: var(--white);
+  padding: 20px;
+  width: 26%;
+  position: absolute;
+  top : 0;
+  left: 0;
+  z-index: 10;
+  display: none;
+}
+
+.divider{
+  position: relative;
+}

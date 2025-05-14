@@ -41,6 +41,10 @@ html {
 }
 /*Placeholder End*/
 
+.visible{
+  display: flex;
+}
+
 :root{
     --white: #f6f8f6;
     --black: #333;
