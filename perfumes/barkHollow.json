@@ -1,0 +1,76 @@
+[
+    {
+        "name": "No. 11 Forest Floor",
+        "color": "dark green",
+        "top_notes": ["pine needles", "crushed sage", "juniper berry", "green pepper"],
+        "heart_notes": ["moss", "freshly cut grass", "cypress", "galbanum"],
+        "base_notes": ["wet bark", "smoked vetiver", "cedarwood", "soil accord"],
+        "classification": "masculine"
+    },
+    {
+        "name": "No. 12 Ashroot",
+        "color": "greyish brown",
+        "top_notes": ["blackberry", "crushed violet", "damp leaves", "lavandin"],
+        "heart_notes": ["cedar", "earth", "orris root", "tonka bean"],
+        "base_notes": ["treebark", "amberwood", "labdanum", "guaiac wood"],
+        "classification": "androgynous"
+    },
+    {
+        "name": "No. 77 Lucky Clover",
+        "color": "soft moss green",
+        "top_notes": ["wild clover", "green apple", "lemon balm", "morning dew accord"],
+        "heart_notes": ["herbaceous greens", "white woods", "violet leaf", "chamomile"],
+        "base_notes": ["soft musk", "earthy patchouli", "oakmoss", "dry hay"],
+        "classification": "androgynous"
+    },
+    {
+        "name": "No. 13 Forest Fire",
+        "color": "charcoal grey",
+        "top_notes": ["burnt amber", "black pepper", "ginger root", "elemi resin"],
+        "heart_notes": ["sandalwood", "leather", "smoky tea", "dark resin"],
+        "base_notes": ["oak", "charred pine resin", "birch tar", "dry vetiver"],
+        "classification": "masculine"
+    },
+    {
+        "name": "No. 14 Frostroot",
+        "color": "stone white",
+        "top_notes": ["eucalyptus", "mint", "pine sap", "frozen citrus zest"],
+        "heart_notes": ["lavender", "silver fir", "rosemary", "icy aldehydes"],
+        "base_notes": ["musk", "dry cedar", "tonka bean", "white amber"],
+        "classification": "masculine"
+    },
+    {
+        "name": "No. 15 Bramblerose",
+        "color": "dusky mauve",
+        "top_notes": ["rose absolute", "dewberry", "pink pepper", "bergamot"],
+        "heart_notes": ["patchouli", "clove", "blackcurrant", "geranium"],
+        "base_notes": ["moss", "smoky wood", "vanilla bean", "ambergris accord"],
+        "classification": "feminine"
+    },
+    {
+        "name": "No. 16 Rainwake",
+        "color": "stormy blue-grey",
+        "top_notes": ["ozonic accord", "wet leaves", "crushed mint", "rainwater"],
+        "heart_notes": ["petrichor", "iris root", "cedar shavings", "lavender mist"],
+        "base_notes": ["damp earth", "soft musk", "oakmoss", "ambergris accord"],
+        "classification": "androgynous"
+    },
+    {
+        "name": "No. 17 Deforestation",
+        "color": "charcoal brown",
+        "top_notes": ["cracked black pepper", "smoked citrus peel", "cypress", "green sap"],
+        "heart_notes": ["charred pine", "leather", "burnt leaves", "eucalyptus"],
+        "base_notes": ["smoke", "vetiver", "cedar ash", "dry soil", "amberwood"],
+        "classification": "masculine"
+    },
+    {
+        "name": "No. 18 Evergreen",
+        "color": "deep pine green",
+        "top_notes": ["juniper berry", "crushed pine needles", "spearmint", "cold rain"],
+        "heart_notes": ["fir balsam", "eucalyptus", "clary sage", "wild rosemary"],
+        "base_notes": ["cedarwood", "moss", "amber resin", "white patchouli", "soft musk"],
+        "classification": "androgynous"
+    }
+      
+  ]
+  

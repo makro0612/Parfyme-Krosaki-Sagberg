@@ -1,0 +1,35 @@
+[
+    {
+        "name": "Golden Toast",
+        "color": "warm amber",
+        "top_notes": ["buckwheat", "toasted grain", "honey drizzle"],
+        "heart_notes": ["almond milk", "brown sugar", "clover blossom"],
+        "base_notes": ["tonka bean", "soft woods", "malted vanilla"],
+        "classification": "androgynous"
+    },
+    {
+        "name": "Morning Brew",
+        "color": "rich espresso brown",
+        "top_notes": ["freshly ground coffee", "cardamom", "roasted hazelnut"],
+        "heart_notes": ["dark chocolate", "clove", "vanilla bean"],
+        "base_notes": ["smoky vetiver", "cedarwood", "amber"],
+        "classification": "masculine"
+    },
+    {
+        "name": "Matcha Float",
+        "color": "matcha green",
+        "top_notes": ["matcha", "green tea leaf", "pear skin"],
+        "heart_notes": ["sweet basil", "white florals", "rice milk"],
+        "base_notes": ["soft musk", "blond wood", "powdered sugar"],
+        "classification": "androgynous"
+    },
+    {
+        "name": "Sleepy Earl",
+        "color": "cool grey-blue",
+        "top_notes": ["bergamot", "Earl Grey tea", "lemon zest"],
+        "heart_notes": ["blue cornflower", "lavender", "steamed milk accord"],
+        "base_notes": ["white musk", "ambrette", "sandalwood"],
+        "classification": "feminine"
+    }
+  ]
+  
