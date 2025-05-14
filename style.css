@@ -93,6 +93,12 @@ input {
   border: none;
   outline: none;
   background-color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.uppermid>button>img {
+  width: 18px;
 }
 
 .content {
