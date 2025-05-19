@@ -295,7 +295,7 @@ input {
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
   gap: 20px;
-  height: 200vh;
+  height: 300vh;
   width: 100%;
   padding: 20px;
   padding-top: 0px;
@@ -313,8 +313,8 @@ input {
 
 .filterpop{
   display: flex;
-  flex-direction: column;
-  gap: 20px;
+  flex-direction: row;
+  gap: 30px;
   height: 100%;
   background-color: var(--white);
   padding: 20px;
@@ -322,10 +322,66 @@ input {
   position: absolute;
   top : 0;
   left: 0;
-  z-index: 10;
+  /*z-index: 10;*/
   display: none;
+  flex-direction: column;
+
+  
+}
+
+.filtertop{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  
 }
 
 .divider{
   position: relative;
+}
+
+.visible{
+  display: flex;
+}
+
+.close{
+  padding: 10px;
+  
+  
+  background-color: red;
+  width: 20px;
+  height: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.filtergroup{
+  display: flex;
+
+  gap: 20px;
+  width: 100%;
+}
+
+.filtercontent{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+}
+
+.perfumeGrid{
+  display: grid;
+  height: 300vh;
+  grid-template-columns: repeat(3, 1fr);
+  width: 74%;
+
+  position: absolute;
+  right: 0;
+  top: 10;
+}
+
+.fragmain{
+  overflow: visible;
 }

@@ -20,5 +20,15 @@ function getBirthFlower() {
     console.log(birthFlower.flowers);
 }
 
+function toggleFilter() {
+    console.log("Filter button clicked");
+    const filterpopelm = document.querySelector(".filterpop");
+    console.log(filterpopelm);
+    filterpopelm.classList.toggle("visible");
+    const perfumeGrid = document.querySelector(".perf");
+    perfumeGrid.classList.toggle("perfumeGrid");
+    
+    
+}
 
    
