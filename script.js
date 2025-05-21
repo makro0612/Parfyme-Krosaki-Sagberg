@@ -31,9 +31,18 @@ async function fullPerfumeList() {
   const perfumeList4 = await fetchPerfumes(perfumeNames[1]);
   const perfumeList5 = await fetchPerfumes(perfumeNames[2]);
   const fullPerfumeList = perfumeList1.concat(perfumeList2, perfumeList3, perfumeList4, perfumeList5);
-  console.log(fullPerfumeList);
+  return fullPerfumeList; // <-- Return the array
 }
 
+// Render perfume cards after data is loaded
+async function renderPerfumeCards() {
+  const perfumes = await fullPerfumeList();
+  const perfumeGrid = document.querySelector(".perf");
+  perfumes.forEach(perfume => {
+    const card = createPerfumeCard(perfume);
+    perfumeGrid.appendChild(card);
+  });
+}
 
 function getBirthFlower() {
     const monthInput = document.getElementById("birthmonthinput").value;
@@ -55,14 +64,14 @@ function toggleFilter() {
 
 function createPerfumeCard(perfume) {
     const perfumeCard = document.createElement("div");
-    perfumeCard.classList.add("perfume-card");
+    perfumeCard.classList.add("perfumeCard");
 
     const perfumeName = document.createElement("h3");
     perfumeName.textContent = perfume.name;
 
     const perfumeImage = document.createElement("img");
     perfumeImage.src = perfume.image;
-    perfumeImage.alt = `${perfume.name} image`;
+    
 
     const perfumeDescription = document.createElement("p");
     perfumeDescription.textContent = perfume.description;
@@ -78,11 +87,11 @@ function createPerfumeCard(perfume) {
     return perfumeCard;
     const perfumeGrid = document.querySelector(".perf");
     perfumeGrid.appendChild(perfumeCard);
-    
+
 }
 
 
 
-
 fullPerfumeList();
+renderPerfumeCards();
 

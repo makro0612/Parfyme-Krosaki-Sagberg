@@ -293,16 +293,16 @@ input {
 .perf{
   display: grid;
   grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
+  grid-template-rows: repeat(10, 1fr);
   gap: 20px;
-  height: 300vh;
+  height: 500vh;
   width: 100%;
   padding: 20px;
   padding-top: 0px;
   
 }
 
-.per{
+.perfumeCard{
   height: 100%;
   width: 100%;
   background-color: var(--black);
@@ -373,8 +373,9 @@ input {
 
 .perfumeGrid{
   display: grid;
-  height: 300vh;
+  height: 700vh;
   grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(14, 1fr);
   width: 74%;
 
   position: absolute;
