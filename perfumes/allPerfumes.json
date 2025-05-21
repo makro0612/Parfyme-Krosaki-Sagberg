@@ -212,7 +212,7 @@
         "heart_notes": ["damask rose", "incense", "tonka"],
         "base_notes": ["burned sugar", "leather", "ash wood"],
         "classification": "feminine",
-        "series": "Smoke & Embers",
+        "series": "Smoke & Embers"
     },
     {
         "name": "No. 24 Firebrand",
@@ -277,7 +277,7 @@
         "heart_notes": ["water lily", "pebble accord", "iris"],
         "base_notes": ["blond woods", "musk", "ambergris"],
         "classification": "androgynous",
-        "series": "Tempest & Tide",
+        "series": "Tempest & Tide"
     },
     {
         "name": "No. 31 Gale",
