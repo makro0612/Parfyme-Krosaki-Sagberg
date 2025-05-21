@@ -6,7 +6,8 @@
         "heart_notes": ["Peony", "Freesia", "Gardenia", "Magnolia", "Rosewater", "Orchid"],
         "base_notes": ["White Amber", "Sandalwood", "Soft Musk", "Cashmere Wood", "Almond Blossom"],
         "classification": "Feminine",
-        "series": "Petal & Thorne"
+        "series": "Petal & Thorne",
+        "choice": "Petter's"
     },
     {
         "name": "No. 02 Forget Me Not",
@@ -15,7 +16,8 @@
         "heart_notes": ["Forget Me Not", "Honeysuckle", "Chamomile", "Peony", "Lilac Blossom"],
         "base_notes": ["Soft Vanilla", "White Amber", "Cedarwood", "Tonka Bean", "Honey"],
         "classification": "Androgynous",
-        "series": "Petal & Thorne"
+        "series": "Petal & Thorne",
+        "choice": "Josefine's"
     },
     {
         "name": "No. 03 Pink Lemonade",
@@ -51,7 +53,8 @@
         "heart_notes": ["Peony", "Jasmine", "Honeysuckle", "Rosewater", "Lilac Blossom"],
         "base_notes": ["Soft Musk", "White Amber", "Cashmere Wood", "Cedarwood", "Tonka Bean"],
         "classification": "Androgynous",
-        "series": "Petal & Thorne"
+        "series": "Petal & Thorne",
+        "choice": "Askil's"
     },
     {
         "name": "No. 07 Greenhouse",
@@ -60,7 +63,8 @@
         "heart_notes": ["Peony", "Freesia", "Rosewater", "Jasmine Sambac", "Violet Leaf"],
         "base_notes": ["Soft Musk", "White Amber", "Cedarwood", "Honey", "Cashmere Wood"],
         "classification": "Androgynous",
-        "series": "Petal & Thorne"
+        "series": "Petal & Thorne",
+        "choice": "Lie's"
     },
     {
         "name": "No. 08 The Wasp",
@@ -78,7 +82,8 @@
         "heart_notes": ["Rosewater", "Jasmine", "Freesia", "Magnolia", "Honeysuckle"],
         "base_notes": ["Soft Musk", "Vanilla", "Cedarwood", "Cashmere Wood", "White Amber"],
         "classification": "Feminine",
-        "series": "Petal & Thorne"
+        "series": "Petal & Thorne",
+        "choice": "Sofia's"
     },
     {
         "name": "No. 11 Forest Floor",
@@ -150,7 +155,8 @@
         "heart_notes": ["charred pine", "leather", "burnt leaves", "eucalyptus"],
         "base_notes": ["smoke", "vetiver", "cedar ash", "dry soil", "amberwood"],
         "classification": "masculine",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
+        "choice": "Karen's"
     },
     {
         "name": "No. 18 Evergreen",
@@ -195,7 +201,8 @@
         "heart_notes": ["iris", "nutmeg", "rose petals"],
         "base_notes": ["charred woods", "white musk", "smoke accord"],
         "classification": "androgynous",
-        "series": "Smoke & Embers"
+        "series": "Smoke & Embers",
+        "choice": "Liv's"
     },
     {
         "name": "No. 23 Cinder Bloom",
@@ -204,7 +211,8 @@
         "heart_notes": ["damask rose", "incense", "tonka"],
         "base_notes": ["burned sugar", "leather", "ash wood"],
         "classification": "feminine",
-        "series": "Smoke & Embers"
+        "series": "Smoke & Embers",
+        "choice": "Tord's"
     },
     {
         "name": "No. 24 Firebrand",
@@ -231,7 +239,8 @@
         "heart_notes": ["rose absolute", "patchouli", "geranium"],
         "base_notes": ["charcoal smoke", "leather", "embers"],
         "classification": "masculine",
-        "series": "Smoke & Embers"
+        "series": "Smoke & Embers",
+        "choice": "Golimo's"
     },
     {
         "name": "No. 27 Whisper of Smoke",
@@ -240,7 +249,8 @@
         "heart_notes": ["cinnamon", "orris root", "tobacco leaf"],
         "base_notes": ["smoked sandalwood", "vanilla bean", "faint firewood smoke"],
         "classification": "androgynous",
-        "series": "Smoke & Embers"
+        "series": "Smoke & Embers",
+        "choice": "Nico's"
     },
     {
         "name": "No. 28 Tempest Bloom",
@@ -285,7 +295,8 @@
         "heart_notes": ["salted violet", "lilac", "driftwood rose"],
         "base_notes": ["coconut husk", "mineral musk", "sandalwood"],
         "classification": "feminine",
-        "series": "Tempest & Tide"
+        "series": "Tempest & Tide",
+        "choice": "Martin's"
     },
     {
         "name": "No. 33 Low Tide",
@@ -330,7 +341,8 @@
         "heart_notes": ["almond milk", "brown sugar", "clover blossom"],
         "base_notes": ["tonka bean", "soft woods", "malted vanilla"],
         "classification": "androgynous",
-        "series": "Breakfast in Bed"
+        "series": "Breakfast in Bed",
+        "choice": "Andrea's"
     },
     {
         "name": "No. 38 Morning Brew",
@@ -348,7 +360,8 @@
         "heart_notes": ["sweet basil", "white florals", "rice milk"],
         "base_notes": ["soft musk", "blond wood", "powdered sugar"],
         "classification": "androgynous",
-        "series": "Breakfast in Bed"
+        "series": "Breakfast in Bed",
+        "choice": "Rego's"
     },
     {
         "name": "No. 40 Earl Grey",
@@ -357,6 +370,7 @@
         "heart_notes": ["blue cornflower", "lavender", "steamed milk accord"],
         "base_notes": ["white musk", "ambrette", "sandalwood"],
         "classification": "feminine",
-        "series": "Breakfast in Bed"
+        "series": "Breakfast in Bed",
+        "choice": "Bendik's"
     }
 ]
