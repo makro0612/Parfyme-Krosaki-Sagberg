@@ -92,8 +92,7 @@
         "heart_notes": ["moss", "freshly cut grass", "cypress", "galbanum"],
         "base_notes": ["wet bark", "smoked vetiver", "cedarwood", "soil accord"],
         "classification": "masculine",
-        "series": "Bark & Hollow",
-        "choice": "Tord's"
+        "series": "Bark & Hollow"
     },
     {
         "name": "No. 12 Ashroot",
@@ -111,7 +110,8 @@
         "heart_notes": ["herbaceous greens", "white woods", "violet leaf", "chamomile"],
         "base_notes": ["soft musk", "earthy patchouli", "oakmoss", "dry hay"],
         "classification": "androgynous",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
+        "choice": "Teodor's"
     },
     {
         "name": "No. 13 Forest Fire",
@@ -166,7 +166,8 @@
         "heart_notes": ["fir balsam", "eucalyptus", "clary sage", "wild rosemary"],
         "base_notes": ["cedarwood", "moss", "amber resin", "white patchouli", "soft musk"],
         "classification": "androgynous",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
+        "choice": "Tord's"
     },
     {
         "name": "No. 19 Scarlet Heat",
@@ -351,7 +352,8 @@
         "heart_notes": ["dark chocolate", "clove", "vanilla bean"],
         "base_notes": ["smoky vetiver", "cedarwood", "amber"],
         "classification": "masculine",
-        "series": "Breakfast in Bed"
+        "series": "Breakfast in Bed",
+        "choice": "Kasra's"
     },
     {
         "name": "No. 39 Matcha Float",
