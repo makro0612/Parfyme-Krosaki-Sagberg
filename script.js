@@ -13,6 +13,28 @@ const birthFlowers = [
   { month: "December", flowers: ["Narcissus", "Holly"] }
 ];
 
+async function fetchPerfumes(name) {
+  try {
+    const response = await fetch('./perfumes/' + name + '.json');
+    const perfumes = await response.json();
+    return perfumes; // <-- Add this line
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    return []; // <-- Return empty array on error
+  }
+}
+async function fullPerfumeList() {
+  const perfumeNames = ["barkHollow", "tempestTide", "breakfastBed", "petalThorne", "smokeEmbers"];
+  const perfumeList1 = await fetchPerfumes(perfumeNames[3]);
+  const perfumeList2 = await fetchPerfumes(perfumeNames[0]);
+  const perfumeList3 = await fetchPerfumes(perfumeNames[4]);
+  const perfumeList4 = await fetchPerfumes(perfumeNames[1]);
+  const perfumeList5 = await fetchPerfumes(perfumeNames[2]);
+  const fullPerfumeList = perfumeList1.concat(perfumeList2, perfumeList3, perfumeList4, perfumeList5);
+  console.log(fullPerfumeList);
+}
+
+
 function getBirthFlower() {
     const monthInput = document.getElementById("birthmonthinput").value;
     const month = monthInput.charAt(0).toUpperCase() + monthInput.slice(1).toLowerCase(); 
@@ -31,4 +53,36 @@ function toggleFilter() {
     
 }
 
-   
+function createPerfumeCard(perfume) {
+    const perfumeCard = document.createElement("div");
+    perfumeCard.classList.add("perfume-card");
+
+    const perfumeName = document.createElement("h3");
+    perfumeName.textContent = perfume.name;
+
+    const perfumeImage = document.createElement("img");
+    perfumeImage.src = perfume.image;
+    perfumeImage.alt = `${perfume.name} image`;
+
+    const perfumeDescription = document.createElement("p");
+    perfumeDescription.textContent = perfume.description;
+
+    const perfumePrice = document.createElement("p");
+    perfumePrice.textContent = `$${perfume.price}`;
+
+    perfumeCard.appendChild(perfumeName);
+    perfumeCard.appendChild(perfumeImage);
+    perfumeCard.appendChild(perfumeDescription);
+    perfumeCard.appendChild(perfumePrice);
+
+    return perfumeCard;
+    const perfumeGrid = document.querySelector(".perf");
+    perfumeGrid.appendChild(perfumeCard);
+    
+}
+
+
+
+
+fullPerfumeList();
+
