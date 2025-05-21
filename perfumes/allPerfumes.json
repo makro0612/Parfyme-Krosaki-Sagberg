@@ -92,7 +92,8 @@
         "heart_notes": ["moss", "freshly cut grass", "cypress", "galbanum"],
         "base_notes": ["wet bark", "smoked vetiver", "cedarwood", "soil accord"],
         "classification": "masculine",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
+        "choice": "Tord's"
     },
     {
         "name": "No. 12 Ashroot",
@@ -212,7 +213,6 @@
         "base_notes": ["burned sugar", "leather", "ash wood"],
         "classification": "feminine",
         "series": "Smoke & Embers",
-        "choice": "Tord's"
     },
     {
         "name": "No. 24 Firebrand",
@@ -277,7 +277,7 @@
         "heart_notes": ["water lily", "pebble accord", "iris"],
         "base_notes": ["blond woods", "musk", "ambergris"],
         "classification": "androgynous",
-        "series": "Tempest & Tide"
+        "series": "Tempest & Tide",
     },
     {
         "name": "No. 31 Gale",
