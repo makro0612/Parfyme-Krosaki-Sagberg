@@ -7,7 +7,8 @@
         "base_notes": ["White Amber", "Sandalwood", "Soft Musk", "Cashmere Wood", "Almond Blossom"],
         "classification": "Feminine",
         "series": "Petal & Thorne",
-        "choice": "Petter's"
+        "choice": "Petter's",
+        "image": "bilder\\petalThorne\\01.png"
     },
     {
         "name": "No. 02 Forget Me Not",
@@ -111,7 +112,7 @@
         "base_notes": ["soft musk", "earthy patchouli", "oakmoss", "dry hay"],
         "classification": "androgynous",
         "series": "Bark & Hollow",
-        "choice": "Teodor's"
+        "choice": "Theodor's"
     },
     {
         "name": "No. 13 Forest Fire",

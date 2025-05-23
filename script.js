@@ -31,12 +31,12 @@ async function fullPerfumeList() {
   const perfumeList4 = await fetchPerfumes(perfumeNames[1]);
   const perfumeList5 = await fetchPerfumes(perfumeNames[2]);
   const fullPerfumeList = perfumeList1.concat(perfumeList2, perfumeList3, perfumeList4, perfumeList5);
-  return fullPerfumeList; // <-- Return the array
+  return fullPerfumeList;   
 }
 
 // Render perfume cards after data is loaded
 async function renderPerfumeCards() {
-  const perfumes = await fullPerfumeList();
+  const perfumes = await fetchAllPerfumes();
   const perfumeGrid = document.querySelector(".perf");
   perfumes.forEach(perfume => {
     const card = createPerfumeCard(perfume);
@@ -62,36 +62,45 @@ function toggleFilter() {
     
 }
 
+async function fetchAllPerfumes() {
+  try {
+    const response = await fetch('./perfumes/allPerfumes.json');
+    const allPerfumes = await response.json();
+    return allPerfumes;
+  } catch (error) {
+    console.error('Error fetching data:', error);
+    return [];
+  }
+}
 function createPerfumeCard(perfume) {
-    const perfumeCard = document.createElement("div");
-    perfumeCard.classList.add("perfumeCard");
+    const perfumeCard = document.createElement("div")
+    perfumeCard.classList.add("perfumeCard")
 
-    const perfumeName = document.createElement("h3");
-    perfumeName.textContent = perfume.name;
+    const perfumeName = document.createElement("h3")
+    perfumeName.textContent = perfume.name
 
-    const perfumeImage = document.createElement("img");
-    perfumeImage.src = perfume.image;
-    
+    const perfumeImage = document.createElement("img")
+    perfumeImage.src = perfume.image
 
-    const perfumeDescription = document.createElement("p");
-    perfumeDescription.textContent = perfume.description;
+    const perfumeDescription = document.createElement("p")
+    perfumeDescription.textContent = perfume.series;
 
     const perfumePrice = document.createElement("p");
     perfumePrice.textContent = `$${perfume.price}`;
 
-    perfumeCard.appendChild(perfumeName);
+    
     perfumeCard.appendChild(perfumeImage);
+    perfumeCard.appendChild(perfumeName);
     perfumeCard.appendChild(perfumeDescription);
     perfumeCard.appendChild(perfumePrice);
 
     return perfumeCard;
-    const perfumeGrid = document.querySelector(".perf");
-    perfumeGrid.appendChild(perfumeCard);
+    
 
 }
 
 
 
-fullPerfumeList();
+console.log(fetchAllPerfumes());
 renderPerfumeCards();
 
