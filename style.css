@@ -290,33 +290,17 @@ input {
   
 }
 
-.perf{
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(10, 1fr);
-  gap: 20px;
-  height: 500vh;
-  width: 100%;
-  padding: 20px;
-  padding-top: 0px;
-  
-}
 
-.perfumeCard{
-  height: 100%;
-  width: 100%;
-  background-color: var(--black);
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+
+
 
 .filterpop{
   display: flex;
   flex-direction: row;
   gap: 30px;
   height: 100%;
-  background-color: var(--white);
+  /*background-color: var(--white);*/
+  background-color: #fff;
   padding: 20px;
   width: 26%;
   position: absolute;
@@ -339,6 +323,7 @@ input {
 
 .divider{
   position: relative;
+  
 }
 
 .visible{
@@ -369,6 +354,21 @@ input {
   flex-direction: column;
   gap: 10px;
   width: 100%;
+  /*background-color: var(--white);*/
+  padding: 20px;
+}
+
+.perf{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(10, 1fr);
+  gap: 20px;
+  height: 500vh;
+  width: 80%;
+  padding: 20px;
+  padding-top: 0px;
+  margin: auto;
+  
 }
 
 .perfumeGrid{
@@ -376,13 +376,32 @@ input {
   height: 700vh;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(14, 1fr);
-  width: 74%;
-
+  width: 60%;
+  gap: 40px;
   position: absolute;
-  right: 0;
+  right: 7%;
   top: 10;
+  padding: 0px;
 }
 
 .fragmain{
   overflow: visible;
+}
+
+/*Perfumecards*/
+
+.perfumeCard{
+  height: 100%;
+  width: 100%;
+  background-color: var(--black);
+  display: flex;
+  flex-direction: column;
+  /*justify-content: center;
+  align-items: center;*/
+  gap: 10px;
+}
+
+.perfumeCard>img{
+  width: 100%;
+  height: 70%;
 }
