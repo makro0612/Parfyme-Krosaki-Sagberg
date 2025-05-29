@@ -139,7 +139,7 @@
         "heart_notes": ["patchouli", "clove", "blackcurrant", "geranium"],
         "base_notes": ["moss", "smoky wood", "vanilla bean", "ambergris accord"],
         "classification": "feminine",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
     },
     {
         "name": "No. 16 Rainwake",
@@ -289,7 +289,8 @@
         "heart_notes": ["eucalyptus", "cool spices", "marine accord"],
         "base_notes": ["wet bark", "musk", "stone moss"],
         "classification": "masculine",
-        "series": "Tempest & Tide"
+        "series": "Tempest & Tide",
+        "choice": "Magnus'"
     },
     {
         "name": "No. 32 Sirensong",
