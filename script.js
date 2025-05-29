@@ -99,8 +99,18 @@ function createPerfumeCard(perfume) {
 
 }
 
+async function fetchPerfumeFiltered(gender) {
+  const allPerfumes = await fetchAllPerfumes();
+  //console.log(allPerfumes);
+  const filteredPerfumes = []
+  allPerfumes.forEach(perfume => {
+    if (perfume.classification === gender) {
+      filteredPerfumes.push(perfume);
+    }
+  });
+  return filteredPerfumes;
+}
 
-
-console.log(fetchAllPerfumes());
-renderPerfumeCards();
+console.log(fetchPerfumeFiltered("Feminine"))
+//renderPerfumeCards();
 
