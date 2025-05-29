@@ -18,7 +18,8 @@
         "base_notes": ["Soft Vanilla", "White Amber", "Cedarwood", "Tonka Bean", "Honey"],
         "classification": "Androgynous",
         "series": "Petal & Thorne",
-        "choice": "Josefine's"
+        "choice": "Josefine's",
+        "image": "bilder\\petalThorne\\02.png"
     },
     {
         "name": "No. 03 Pink Lemonade",
@@ -27,7 +28,8 @@
         "heart_notes": ["Freesia", "Rosewater", "Jasmine Sambac", "Magnolia", "Lilac Blossom"],
         "base_notes": ["Soft Musk", "Tonka Bean", "Patchouli", "White Chocolate", "Cashmere Wood"],
         "classification": "Feminine",
-        "series": "Petal & Thorne"
+        "series": "Petal & Thorne",
+        "image": "bilder\\petalThorne\\03.png"
     },
     {
         "name": "No. 04 Overgrown",
@@ -36,7 +38,8 @@
         "heart_notes": ["Forest Greens", "Violet Leaf", "Peony", "Honeysuckle", "Geranium"],
         "base_notes": ["White Musk", "Cedarwood", "Sandalwood", "Honey", "Suede"],
         "classification": "Androgynous",
-        "series": "Petal & Thorne"
+        "series": "Petal & Thorne",
+        "image": "bilder\\petalThorne\\04.png" 
     },
     {
         "name": "No. 05 Lemon Zest",
@@ -45,7 +48,9 @@
         "heart_notes": ["Neroli Blossom", "Jasmine", "Freesia", "Peony", "Magnolia"],
         "base_notes": ["Soft Musk", "Cashmere Wood", "Sandalwood", "White Amber", "Vanilla Bean"],
         "classification": "Androgynous",
-        "series": "Petal & Thorne"
+        "series": "Petal & Thorne",
+        "image": "bilder\\petalThorne\\05.png"
+
     },
     {
         "name": "No. 06 Frostbite",
@@ -55,7 +60,8 @@
         "base_notes": ["Soft Musk", "White Amber", "Cashmere Wood", "Cedarwood", "Tonka Bean"],
         "classification": "Androgynous",
         "series": "Petal & Thorne",
-        "choice": "Askil's"
+        "choice": "Askil's",
+        "image": "bilder\\petalThorne\\06.png"
     },
     {
         "name": "No. 07 Greenhouse",
@@ -65,7 +71,8 @@
         "base_notes": ["Soft Musk", "White Amber", "Cedarwood", "Honey", "Cashmere Wood"],
         "classification": "Androgynous",
         "series": "Petal & Thorne",
-        "choice": "Lie's"
+        "choice": "Lie's",
+        "image": "bilder\\petalThorne\\07.png"
     },
     {
         "name": "No. 08 The Wasp",
@@ -74,7 +81,8 @@
         "heart_notes": ["Peony", "Freesia", "Jasmine", "Honeysuckle", "Lilac Blossom"],
         "base_notes": ["Vanilla", "Tonka Bean", "Soft Musk", "Cashmere Wood", "White Amber"],
         "classification": "Androgynous",
-        "series": "Petal & Thorne"
+        "series": "Petal & Thorne",
+        "image": "bilder\\petalThorne\\08.png"
     },
     {
         "name": "No. 09 Nectar",
@@ -84,7 +92,9 @@
         "base_notes": ["Soft Musk", "Vanilla", "Cedarwood", "Cashmere Wood", "White Amber"],
         "classification": "Feminine",
         "series": "Petal & Thorne",
-        "choice": "Sofia's"
+        "choice": "Sofia's",
+        "image": "bilder\\petalThorne\\09.png"
+
     },
     {
         "name": "No. 11 Forest Floor",
@@ -93,7 +103,9 @@
         "heart_notes": ["moss", "freshly cut grass", "cypress", "galbanum"],
         "base_notes": ["wet bark", "smoked vetiver", "cedarwood", "soil accord"],
         "classification": "masculine",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
+        "image": "bilder\\barkHollow\\11.png"
+        
     },
     {
         "name": "No. 12 Ashroot",
@@ -102,7 +114,8 @@
         "heart_notes": ["cedar", "earth", "orris root", "tonka bean"],
         "base_notes": ["treebark", "amberwood", "labdanum", "guaiac wood"],
         "classification": "androgynous",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
+        "image": "bilder\\barkHollow\\12.png"
     },
     {
         "name": "No. 77 Lucky Clover",
@@ -112,7 +125,9 @@
         "base_notes": ["soft musk", "earthy patchouli", "oakmoss", "dry hay"],
         "classification": "androgynous",
         "series": "Bark & Hollow",
-        "choice": "Theodor's"
+        "choice": "Theodor's",
+        "image": "bilder\\barkHollow\\77.png"
+
     },
     {
         "name": "No. 13 Forest Fire",
@@ -121,7 +136,8 @@
         "heart_notes": ["sandalwood", "leather", "smoky tea", "dark resin"],
         "base_notes": ["oak", "charred pine resin", "birch tar", "dry vetiver"],
         "classification": "masculine",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
+        "image": "bilder\\barkHollow\\13.png"
     },
     {
         "name": "No. 14 Frostroot",
@@ -130,7 +146,8 @@
         "heart_notes": ["lavender", "silver fir", "rosemary", "icy aldehydes"],
         "base_notes": ["musk", "dry cedar", "tonka bean", "white amber"],
         "classification": "masculine",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
+        "image": "bilder\\barkHollow\\14.png"
     },
     {
         "name": "No. 15 Bramblerose",
@@ -139,7 +156,8 @@
         "heart_notes": ["patchouli", "clove", "blackcurrant", "geranium"],
         "base_notes": ["moss", "smoky wood", "vanilla bean", "ambergris accord"],
         "classification": "feminine",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
+        "image": "bilder\\barkHollow\\15.png"
     },
     {
         "name": "No. 16 Rainwake",
@@ -148,7 +166,8 @@
         "heart_notes": ["petrichor", "iris root", "cedar shavings", "lavender mist"],
         "base_notes": ["damp earth", "soft musk", "oakmoss", "ambergris accord"],
         "classification": "androgynous",
-        "series": "Bark & Hollow"
+        "series": "Bark & Hollow",
+        "image": "bilder\\barkHollow\\16.png"
     },
     {
         "name": "No. 17 Deforestation",
@@ -158,7 +177,8 @@
         "base_notes": ["smoke", "vetiver", "cedar ash", "dry soil", "amberwood"],
         "classification": "masculine",
         "series": "Bark & Hollow",
-        "choice": "Karen's"
+        "choice": "Karen's",
+        "image": "bilder\\barkHollow\\17.png"
     },
     {
         "name": "No. 18 Evergreen",
@@ -168,7 +188,8 @@
         "base_notes": ["cedarwood", "moss", "amber resin", "white patchouli", "soft musk"],
         "classification": "androgynous",
         "series": "Bark & Hollow",
-        "choice": "Tord's"
+        "choice": "Tord's",
+        "image": "bilder\\barkHollow\\18.png"
     },
     {
         "name": "No. 19 Scarlet Heat",
@@ -177,7 +198,8 @@
         "heart_notes": ["red roses", "cinnamon bark", "clove"],
         "base_notes": ["burnt incense", "charred amber", "smoked oud"],
         "classification": "feminine",
-        "series": "Smoke & Embers"
+        "series": "Smoke & Embers",
+        "image": "bilder\\smokeEmbers\\19.png"
     },
     {
         "name": "No. 20 Golden Ember",
@@ -186,7 +208,8 @@
         "heart_notes": ["toasted vanilla", "hazelnut", "burnt sugar"],
         "base_notes": ["amberwood", "sandalwood smoke", "resinous balsam"],
         "classification": "androgynous",
-        "series": "Smoke & Embers"
+        "series": "Smoke & Embers",
+        "image": "bilder\\smokeEmbers\\20.png"
     },
     {
         "name": "No. 21 Kindled",
@@ -195,7 +218,8 @@
         "heart_notes": ["cinnamon", "cardamom", "rosewood"],
         "base_notes": ["smoked cedar", "birch tar", "tonka bean"],
         "classification": "masculine",
-        "series": "Smoke & Embers"
+        "series": "Smoke & Embers",
+        "image": "bilder\\smokeEmbers\\21.png"
     },
     {
         "name": "No. 22 Ashes & Silk",
@@ -205,7 +229,8 @@
         "base_notes": ["charred woods", "white musk", "smoke accord"],
         "classification": "androgynous",
         "series": "Smoke & Embers",
-        "choice": "Liv's"
+        "choice": "Liv's",
+        "image": "bilder\\smokeEmbers\\22.png"
     },
     {
         "name": "No. 23 Cinder Bloom",
@@ -214,7 +239,8 @@
         "heart_notes": ["damask rose", "incense", "tonka"],
         "base_notes": ["burned sugar", "leather", "ash wood"],
         "classification": "feminine",
-        "series": "Smoke & Embers"
+        "series": "Smoke & Embers",
+        "image": "bilder\\smokeEmbers\\23.png"
     },
     {
         "name": "No. 24 Firebrand",
@@ -223,7 +249,8 @@
         "heart_notes": ["cinnamon leaf", "clove bud", "leather accord"],
         "base_notes": ["birch tar", "smoldering resins", "dark amber"],
         "classification": "masculine",
-        "series": "Smoke & Embers"
+        "series": "Smoke & Embers",
+        "image": "bilder\\smokeEmbers\\24.png"
     },
     {
         "name": "No. 25 Velvet Smoke",
@@ -232,7 +259,8 @@
         "heart_notes": ["black orchid", "myrrh", "nutmeg"],
         "base_notes": ["benzoin", "burnt sandalwood", "white amber smoke"],
         "classification": "feminine",
-        "series": "Smoke & Embers"
+        "series": "Smoke & Embers",
+        "image": "bilder\\smokeEmbers\\25.png"
     },
     {
         "name": "No. 26 Inferno",
@@ -242,7 +270,8 @@
         "base_notes": ["charcoal smoke", "leather", "embers"],
         "classification": "masculine",
         "series": "Smoke & Embers",
-        "choice": "Golimo's"
+        "choice": "Golimo's",
+        "image": "bilder\\smokeEmbers\\26.png"
     },
     {
         "name": "No. 27 Whisper of Smoke",
@@ -252,7 +281,8 @@
         "base_notes": ["smoked sandalwood", "vanilla bean", "faint firewood smoke"],
         "classification": "androgynous",
         "series": "Smoke & Embers",
-        "choice": "Nicolai's"
+        "choice": "Nicolai's",
+        "image": "bilder\\smokeEmbers\\27.png"
     },
     {
         "name": "No. 28 Tempest Bloom",
@@ -261,7 +291,8 @@
         "heart_notes": ["sea breeze accord", "white florals", "driftwood"],
         "base_notes": ["cedar", "salted musk", "cool amber"],
         "classification": "androgynous",
-        "series": "Tempest & Tide"
+        "series": "Tempest & Tide",
+        "image": "bilder\\tempestTide\\28.png"
     },
     {
         "name": "No. 29 Deep Current",
@@ -271,7 +302,8 @@
         "base_notes": ["tonka bean", "oceanic musk", "deep cedar"],
         "classification": "masculine",
         "series": "Tempest & Tide",
-        "choice": "Lorentz's"
+        "choice": "Lorentz's",
+        "image": "bilder\\tempestTide\\29.png"
     },
     {
         "name": "No. 30 Saltveil",
@@ -280,7 +312,8 @@
         "heart_notes": ["water lily", "pebble accord", "iris"],
         "base_notes": ["blond woods", "musk", "ambergris"],
         "classification": "androgynous",
-        "series": "Tempest & Tide"
+        "series": "Tempest & Tide",
+        "image": "bilder\\tempestTide\\30.png"
     },
     {
         "name": "No. 31 Gale",
@@ -290,7 +323,8 @@
         "base_notes": ["wet bark", "musk", "stone moss"],
         "classification": "masculine",
         "series": "Tempest & Tide",
-        "choice": "Magnus'"
+        "choice": "Magnus's",
+        "image": "bilder\\tempestTide\\31.png"
     },
     {
         "name": "No. 32 Sirensong",
@@ -300,7 +334,8 @@
         "base_notes": ["coconut husk", "mineral musk", "sandalwood"],
         "classification": "feminine",
         "series": "Tempest & Tide",
-        "choice": "Martin's"
+        "choice": "Martin's",
+        "image": "bilder\\tempestTide\\32.png"
     },
     {
         "name": "No. 33 Low Tide",
@@ -309,7 +344,8 @@
         "heart_notes": ["fennel flower", "kelp accord", "green tea"],
         "base_notes": ["oakmoss", "driftwood", "wet mineral clay"],
         "classification": "androgynous",
-        "series": "Tempest & Tide"
+        "series": "Tempest & Tide",
+        "image": "bilder\\tempestTide\\33.png"
     },
     {
         "name": "No. 34 Breakwater",
@@ -318,7 +354,8 @@
         "heart_notes": ["juniper", "orchid", "crushed shells"],
         "base_notes": ["smoked vetiver", "cedar", "ambergris"],
         "classification": "masculine",
-        "series": "Tempest & Tide"
+        "series": "Tempest & Tide",
+        "image": "bilder\\tempestTide\\34.png"
     },
     {
         "name": "No. 35 Blue Hour",
@@ -327,7 +364,8 @@
         "heart_notes": ["iris root", "sea daffodil", "salt air accord"],
         "base_notes": ["pale woods", "blue musk", "cashmeran"],
         "classification": "feminine",
-        "series": "Tempest & Tide"
+        "series": "Tempest & Tide",
+        "image": "bilder\\tempestTide\\35.png"
     },
     {
         "name": "No. 36 Undertow",
@@ -336,7 +374,8 @@
         "heart_notes": ["anise", "fern", "storm accord"],
         "base_notes": ["dark amber", "salt crystals", "sun-warmed rock"],
         "classification": "androgynous",
-        "series": "Tempest & Tide"
+        "series": "Tempest & Tide",
+        "image": "bilder\\tempestTide\\36.png"
     },
     {
         "name": "No. 37 Golden Toast",
@@ -346,7 +385,8 @@
         "base_notes": ["tonka bean", "soft woods", "malted vanilla"],
         "classification": "androgynous",
         "series": "Breakfast in Bed",
-        "choice": "Andrea's"
+        "choice": "Andrea's",
+        "image": "bilder\\breakfastBed\\37.png"
     },
     {
         "name": "No. 38 Morning Brew",
@@ -356,7 +396,8 @@
         "base_notes": ["smoky vetiver", "cedarwood", "amber"],
         "classification": "masculine",
         "series": "Breakfast in Bed",
-        "choice": "Kasra's"
+        "choice": "Kasra's",
+        "image": "bilder\\breakfastBed\\38.png"
     },
     {
         "name": "No. 39 Matcha Float",
@@ -366,7 +407,9 @@
         "base_notes": ["soft musk", "blond wood", "powdered sugar"],
         "classification": "androgynous",
         "series": "Breakfast in Bed",
-        "choice": "Rego's"
+        "choice": "Rego's",
+        "image": "bilder\\breakfastBed\\39.png"
+
     },
     {
         "name": "No. 40 Earl Grey",
@@ -376,6 +419,7 @@
         "base_notes": ["white musk", "ambrette", "sandalwood"],
         "classification": "feminine",
         "series": "Breakfast in Bed",
-        "choice": "Bendik's"
+        "choice": "Bendik's",
+        "image": "bilder\\breakfastBed\\40.png"
     }
 ]

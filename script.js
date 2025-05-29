@@ -112,5 +112,5 @@ async function fetchPerfumeFiltered(gender) {
 }
 
 console.log(fetchPerfumeFiltered("Feminine"))
-//renderPerfumeCards();
+renderPerfumeCards();
 
