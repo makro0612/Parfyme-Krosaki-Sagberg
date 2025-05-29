@@ -48,6 +48,16 @@ async function renderPerfumeCards() {
   });
 }
 
+async function renderSomePerfumes(filter) {
+  const perfumes = await fetchPerfumeFiltered(filter);
+  const perfumeGrid = document.querySelector(".perf");
+  perfumeGrid.innerHTML = ""; // Clear existing cards
+  perfumes.forEach(perfume => {
+    const card = createPerfumeCard(perfume);
+    perfumeGrid.appendChild(card);
+  });
+}
+
 function getBirthFlower() {
     const monthInput = document.getElementById("birthmonthinput").value;
     const month = monthInput.charAt(0).toUpperCase() + monthInput.slice(1).toLowerCase(); 
@@ -108,12 +118,14 @@ async function fetchPerfumeFiltered(gender) {
   //console.log(allPerfumes);
   const filteredPerfumes = []
   allPerfumes.forEach(perfume => {
-    if (perfume.classification === gender) {
+    if (perfume.classification.toLowerCase() === gender.toLowerCase()) {
       filteredPerfumes.push(perfume);
     }
   });
   return filteredPerfumes;
 }
+
+
 
 console.log(fetchPerfumeFiltered("Feminine"))
 renderPerfumeCards();
