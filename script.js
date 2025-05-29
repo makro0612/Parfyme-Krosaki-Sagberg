@@ -37,8 +37,12 @@ async function fullPerfumeList() {
 // Render perfume cards after data is loaded
 async function renderPerfumeCards() {
   const perfumes = await fetchAllPerfumes();
+
+  // Shuffle the perfumes array
+  const shuffledPerfumes = perfumes.sort(() => Math.random() - 0.5);
+
   const perfumeGrid = document.querySelector(".perf");
-  perfumes.forEach(perfume => {
+  shuffledPerfumes.forEach(perfume => {
     const card = createPerfumeCard(perfume);
     perfumeGrid.appendChild(card);
   });
