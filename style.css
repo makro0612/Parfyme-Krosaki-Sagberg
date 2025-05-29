@@ -393,7 +393,7 @@ input {
 .perfumeCard{
   height: 100%;
   width: 100%;
-  background-color: var(--black);
+  background-color: var(--white);
   display: flex;
   flex-direction: column;
   /*justify-content: center;
@@ -404,4 +404,17 @@ input {
 .perfumeCard>img{
   width: 100%;
   height: 70%;
+}
+
+.perfumeCard>h3{
+  
+  font-size: 20px;
+  color: var(--black);
+  margin-left: 10px;
+}
+
+.perfumeCard>p{
+  font-size: 16px;
+  color: var(--black);
+  margin-left: 10px;
 }
