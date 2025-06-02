@@ -125,15 +125,54 @@ async function fetchPerfumeFiltered(gender) {
   return filteredPerfumes;
 }
 
-while (true) {
-  const checks = document.querySelectorAll("filtercheck")
-  checks.forEach(check => {
-    check.addEventListener("click", () => {
-      
-    });
+function getCheckedValues(selector) {
+  return Array.from(document.querySelectorAll(selector + ':checked')).map(cb => cb.value);
+}
+
+async function renderFilteredPerfumes() {
+  const checkedGenders = getCheckedValues('.filtercheck');
+  const checkedScents = getCheckedValues('.scentcheck');
+  const checkedSeries = getCheckedValues('.seriescheck');
+  const allPerfumes = await fetchAllPerfumes();
+
+  let filtered = allPerfumes;
+
+  // Filter by gender (OR logic)
+  if (checkedGenders.length > 0) {
+    filtered = filtered.filter(perfume =>
+      checkedGenders.includes(perfume.classification)
+    );
+  }
+
+  // Filter by series (OR logic)
+  if (checkedSeries.length > 0) {
+    filtered = filtered.filter(perfume =>
+      checkedSeries.includes(perfume.series)
+    );
+  }
+
+  // Filter by scent (OR logic, matches any top, heart, or base note)
+  if (checkedScents.length > 0) {
+    filtered = filtered.filter(perfume =>
+      (perfume.top_notes && perfume.top_notes.some(note => checkedScents.includes(note))) ||
+      (perfume.heart_notes && perfume.heart_notes.some(note => checkedScents.includes(note))) ||
+      (perfume.base_notes && perfume.base_notes.some(note => checkedScents.includes(note)))
+    );
+  }
+
+  const perfumeGrid = document.querySelector(".perf");
+  perfumeGrid.innerHTML = "";
+  filtered.forEach(perfume => {
+    const card = createPerfumeCard(perfume);
+    perfumeGrid.appendChild(card);
   });
 }
 
-console.log(fetchPerfumeFiltered("Feminine"))
+// Add event listeners to all filter checkboxes
+document.querySelectorAll('.filtercheck, .scentcheck, .seriescheck').forEach(cb => {
+  cb.addEventListener('change', renderFilteredPerfumes);
+});
+
+// Optionally, render all perfumes on page load
 renderPerfumeCards();
 
