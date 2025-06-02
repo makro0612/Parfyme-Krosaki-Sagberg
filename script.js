@@ -127,6 +127,11 @@ async function fetchPerfumeFiltered(gender) {
 
 while (true) {
   const checks = document.querySelectorAll("filtercheck")
+  checks.forEach(check => {
+    check.addEventListener("click", () => {
+      
+    });
+  });
 }
 
 console.log(fetchPerfumeFiltered("Feminine"))
