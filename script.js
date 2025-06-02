@@ -125,7 +125,9 @@ async function fetchPerfumeFiltered(gender) {
   return filteredPerfumes;
 }
 
-
+while (true) {
+  const checks = document.querySelectorAll("filtercheck")
+}
 
 console.log(fetchPerfumeFiltered("Feminine"))
 renderPerfumeCards();
