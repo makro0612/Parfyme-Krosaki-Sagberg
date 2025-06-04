@@ -147,12 +147,20 @@
     display: flex;
     height: 100%;
     width: 20%;
-    border: #fff 1px solid;
+    border-left: #fff 1px solid;
+    border-right: #fff 1px solid;
     justify-content: flex-end;
     align-items: left;
     flex-direction: column;
     color: white;
     padding-bottom: 1rem;
+    transition: all 0.2s ease-in-out;
+    opacity: 0.2;
+  }
+
+  .type:hover {
+    padding-bottom: 4rem;
+    opacity: 1;
   }
   
   .textPage1 {
