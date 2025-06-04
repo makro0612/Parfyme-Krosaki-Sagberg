@@ -270,12 +270,10 @@ main>section {
   padding: 1rem 0 1rem 0;
   margin: 1rem 0 0 0;
 }
-.featuredTop {
+.featuredTop, .featuredBottom {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: center;
-  background-color: var(--white);
 }
 .featuredTop h1 {
   border: none;
@@ -283,7 +281,7 @@ main>section {
   padding: 0;
   text-transform: lowercase;
 }
-.textspot p {
+.textspot > p {
   font-size: 1rem;
   color: var(--lgrey);
 }
