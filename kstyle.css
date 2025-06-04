@@ -159,7 +159,7 @@
   }
 
   .type:hover {
-    padding-bottom: 4rem;
+    padding-bottom: 1.3rem;
     opacity: 1;
   }
   
@@ -178,10 +178,17 @@
     margin-left: 1rem;
   }
   .type > p {
-    margin: 1rem;
+    margin: 1rem 1rem 0.5rem 1rem;
+    
   }
   .view {
     display: none;
+  }
+  .view:hover {
+    text-decoration: underline;
+  }
+  .type:hover .view {
+    display: flex;
   }
   .featured {
     height: 88vh;
