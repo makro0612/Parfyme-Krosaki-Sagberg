@@ -1,3 +1,5 @@
+
+
 const birthFlowers = [
   { month: "January", flowers: ["Carnation", "Snowdrop"] },
   { month: "February", flowers: ["Violet", "Primrose"] },
@@ -168,10 +170,39 @@ async function renderFilteredPerfumes() {
   });
 }
 
+
 // Add event listeners to all filter checkboxes
 document.querySelectorAll('.filtercheck, .scentcheck, .seriescheck').forEach(cb => {
   cb.addEventListener('change', renderFilteredPerfumes);
 });
+
+
+const types = document.querySelectorAll('.type');
+types.forEach(typeElm => {
+   typeElm.addEventListener('mouseover', async (event) => {
+       const typeId = typeElm.id;
+       console.log(`Mouse over on type: ${typeId}`);
+       const speTypeElm = document.getElementById(typeId);
+       const contentElm = document.querySelector('.content');
+       contentElm.style.backgroundImage = "url('./bilder/" + typeId + "Placeholder.jpg')";
+       const typeDesc = document.getElementById(typeId + 'Desc');
+       typeDesc.style.opacity = "1";
+       const typeView = document.getElementById(typeId + 'View');
+       typeView.style.opacity = "1";
+   });
+    typeElm.addEventListener('mouseout', (event) => {
+        const typeId = typeElm.id;
+        console.log(`Mouse out from type: ${typeId}`);
+        const speTypeElm = document.getElementById(typeId);
+        const contentElm = document.querySelector('.content');
+        contentElm.style.backgroundImage = "url('./bilder/featuredplaceholder.jpg')";
+        const typeDesc = document.getElementById(typeId + 'Desc');
+        typeDesc.style.opacity = "0";
+        const typeView = document.getElementById(typeId + 'View');
+        typeView.style.opacity = "0";
+    });
+});
+
 
 // Optionally, render all perfumes on page load
 renderPerfumeCards();

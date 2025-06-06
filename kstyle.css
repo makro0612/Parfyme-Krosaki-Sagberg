@@ -163,7 +163,11 @@ main>section {
   color: white;
   padding-bottom: 1rem;
   transition: all 0.2s ease-in-out;
-  opacity: 0.2;
+  
+}
+
+.type>h1{
+  opacity: 1;
 }
 
 .type:hover {
@@ -174,6 +178,7 @@ main>section {
 .textPage1 {
   border-top: 1px solid white;
   border-bottom: 1px solid white;
+  
 }
 
 .textPage1 h1 {
@@ -185,10 +190,12 @@ main>section {
   font-size: 1.3rem;
   margin: 0.6rem;
   margin-left: 1rem;
+  opacity: 1;
 }
 
 .type>p {
   margin: 1rem 1rem 0.5rem 1rem;
+  opacity: 0;
 
 }
 .view {
