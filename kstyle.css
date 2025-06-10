@@ -2,7 +2,7 @@
 .slider {
   display: flex;
   height: 4vh;
-  background-color: aquamarine;
+  background-color: rgb(123, 132, 129);
   justify-content: center;
   align-items: center;
 }
@@ -24,15 +24,15 @@ header {
 .logo {
   background-image: url("bilder/logoMain.svg");
   background-size: cover;
-  width: 147px;
-  height: 53.8px;
-  margin: 18px 15px 0 20px;
+  width: 18vh;
+  height: 6vh;
+  margin: 1.2vh 1.2vh 0 1.2vh;
 
 }
 
 .shoppingBasket {
-  height: 80px;
-  width: 125px;
+  height: 8vh;
+  width: 15vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,7 @@ header {
 }
 
 .shoppingBasket>img {
-  width: 17px;
+  width: 2vh;
 }
 
 .navmid {
@@ -97,7 +97,7 @@ input {
 .tab {
   font-family: "Gothic A1", sans-serif;
   font-weight: 900;
-  font-size: 0.8rem;
+  font-size: 1.8vh;
   text-transform: uppercase;
 }
 
@@ -115,7 +115,7 @@ input {
 }
 
 .uppermid>button>img {
-  width: 18px;
+  width: 2.4vh;
 }
 
 /*Main Styles*/
